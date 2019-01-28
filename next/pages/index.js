@@ -1,0 +1,1 @@
+export default () => <div>你好，同学!</div>
