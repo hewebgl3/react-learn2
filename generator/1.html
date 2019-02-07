@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="dom"></div>
 </body>
 
 <script >
@@ -16,5 +15,10 @@
         yield x + 2;
         return x + 3;
     }
+    var f = go(10)
+    console.log(f.next());
+    console.log(f.next());
+    console.log(f.next());
+    console.log(f.next());
 </script>
 </html>

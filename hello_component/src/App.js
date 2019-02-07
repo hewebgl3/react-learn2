@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import ClickButton from "./ClickButton"
 import CustomButton from './CustomButton';
+import CustomButton2 from './CustomButton2';
 import CounterComponent from "./CounterComponent"
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
         <ClickButton />
         <CustomButton text="我的文字可以更改" num={1}/>
         <CounterComponent />
+        <CustomButton2 text="类型检查" num="xxx"/>
       </div>
     );
   }

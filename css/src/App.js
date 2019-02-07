@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ClickButton from "./ClickButton"
+import ClickButton1 from './ClickButton1'
 import CustomButton from './CustomButton';
 import CounterComponent from "./CounterComponent"
 
@@ -24,6 +25,7 @@ class App extends Component {
           </a>
         </header>
         <ClickButton />
+        <ClickButton1 />
         <CustomButton text="我的文字可以更改" num={1}/>
         <CounterComponent />
       </div>
