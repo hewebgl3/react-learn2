@@ -1,3 +1,4 @@
+
 // 你可以将属性声明为以下 JS 原生类型
 optionalArray: PropTypes.array,
 optionalBool: PropTypes.bool,

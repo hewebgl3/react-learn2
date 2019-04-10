@@ -10,6 +10,7 @@ import {
   faCheckSquare
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {Icon2} from "./Icon2"
 
 library.add(
   fab,
@@ -84,6 +85,7 @@ class App extends Component {
               </li>
             </ul>
           </div>
+          <Icon2/>
         </main>
       </div>
     )
